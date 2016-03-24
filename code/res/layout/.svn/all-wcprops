@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/2/trunk/res/layout
+END
+messages_body.xml
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/1/trunk/res/layout/messages_body.xml
+END
+favorite_edit.xml
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/1/trunk/res/layout/favorite_edit.xml
+END
+main.xml
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/2/trunk/res/layout/main.xml
+END
+twitters.xml
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/1/trunk/res/layout/twitters.xml
+END
+message_new.xml
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/1/trunk/res/layout/message_new.xml
+END
+twitter_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/1/trunk/res/layout/twitter_list.xml
+END
+messages_row.xml
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/1/trunk/res/layout/messages_row.xml
+END
+footer.xml
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/1/trunk/res/layout/footer.xml
+END
+message_reply.xml
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/1/trunk/res/layout/message_reply.xml
+END
+favorite_row.xml
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/1/trunk/res/layout/favorite_row.xml
+END
+compose_update.xml
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/1/trunk/res/layout/compose_update.xml
+END
+messages.xml
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/1/trunk/res/layout/messages.xml
+END
+login.xml
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/1/trunk/res/layout/login.xml
+END
+update_row.xml
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/1/trunk/res/layout/update_row.xml
+END
+about.xml
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/1/trunk/res/layout/about.xml
+END
+favorite.xml
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/1/trunk/res/layout/favorite.xml
+END

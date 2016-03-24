@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white" >
+
+         
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@color/white"
+            android:text=""
+            android:width="10px" >
+        </TextView>
+
+    </RelativeLayout>
+
+
+<!--       <TextView -->
+<!--          android:id="@+id/name" -->
+<!--          android:layout_width="fill_parent" -->
+<!--          android:layout_height="wrap_content" -->
+<!--       android:layout_marginTop="3sp" -->
+<!--       android:layout_marginBottom="3sp" -->
+<!--          android:textSize="16sp" > -->
+<!--      </TextView> -->
+ 
+    
+<!--      <EditText -->
+<!--          android:id="@+id/seat" -->
+<!--          android:layout_width="fill_parent" -->
+<!--          android:layout_height="wrap_content" -->
+<!--          android:hint="座位号: " -->
+<!--         android:layout_marginTop="10dp" -->
+<!--          android:inputType="number" -->
+<!--          android:layout_below="@+id/name" -->
+<!--           > -->
+<!--      </EditText> -->
+
+
+        <ImageView
+            android:id="@+id/food_img"
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:layout_margin="10dp"
+            android:clickable="false"
+            android:padding="4dp"
+            android:src="@drawable/pork" 
+            android:adjustViewBounds="true"
+            android:background="@color/white" >
+        </ImageView>
+
+	<RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+     >
+        <TextView
+            android:id="@+id/tv_shuliang"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@color/white"
+            android:text="数量"
+            android:width="10px" >
+        </TextView>
+        
+		<EditText
+		    android:id="@+id/shuliang"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentRight="true"
+		    android:layout_toRightOf="@+id/tv_shuliang"
+		    android:text="1" >
+ 
+		</EditText>
+    </RelativeLayout>
+        
+	
+     <Button
+         android:id="@+id/button1"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+		 android:layout_below="@+id/seat"
+         android:text="添加到购物车" />
+
+</LinearLayout>
+
+
+<!-- <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"     -->
+<!--     android:layout_width="fill_parent"     -->
+<!--     android:layout_height="fill_parent"> -->
+  
+
+<!--         <TextView -->
+<!--             android:id="@+id/name" -->
+<!--             android:layout_width="fill_parent" -->
+<!--             android:layout_height="wrap_content" -->
+<!-- 	        android:layout_marginTop="3sp" -->
+<!-- 	        android:layout_marginBottom="3sp" -->
+<!--             android:textSize="16sp" > -->
+<!--         </TextView> -->
+
+<!--         <EditText -->
+<!--             android:id="@+id/seat" -->
+<!--             android:layout_width="fill_parent" -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:hint="输入桌位号" -->
+<!--             android:inputType="number" -->
+<!--             android:layout_below="@+id/name" -->
+<!--              > -->
+<!--         </EditText> -->
+
+<!--         <Button -->
+<!--             android:id="@+id/button1" -->
+<!--             android:layout_width="fill_parent" -->
+<!--             android:layout_height="wrap_content" -->
+<!-- 			android:layout_below="@+id/seat" -->
+<!--             android:text="提交订单" /> -->
+ 
+<!-- </RelativeLayout> -->
