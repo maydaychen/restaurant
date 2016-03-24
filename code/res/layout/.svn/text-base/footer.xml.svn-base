@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10dip"
+	>
+
+	<Button
+		android:id="@+id/twitters_button"
+		android:layout_width="90dip"
+    	android:layout_height="wrap_content"
+		android:text="闲聊"
+		android:paddingLeft="5dip"
+		android:paddingRight="5dip"/>
+	<Button
+		android:id="@+id/twitters_button"
+		android:layout_width="90dip"
+    	android:layout_height="wrap_content"
+		android:text="收藏"
+		android:paddingLeft="5dip"
+		android:paddingRight="5dip"/>
+	<Button
+		android:id="@+id/twitters_button"
+		android:layout_width="90dip"
+    	android:layout_height="wrap_content"
+		android:text="短信"
+		android:paddingLeft="5dip"
+		android:paddingRight="5dip"/>
+</LinearLayout>

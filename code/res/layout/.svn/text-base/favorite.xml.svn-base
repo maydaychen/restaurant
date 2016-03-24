@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  	xmlns:android="http://schemas.android.com/apk/res/android"  	
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+  
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+  <!-- ImageView android:src="@drawable/bookmark_small" 
+             android:layout_marginRight="20dip"
+             android:layout_marginLeft="10dip" 
+             android:layout_width="wrap_content" 
+             android:layout_height="wrap_content"/-->  
+	<Button
+	android:id="@+id/preBtn"
+	android:layout_marginRight="185dip"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="上一页"	
+	>
+	</Button>
+	<Button
+	android:id="@+id/nextBtn"	
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="下一页"	
+	>
+	</Button>
+</LinearLayout>
+<ListView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/favorite_list"
+  android:orientation="horizontal"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  >  
+</ListView>
+
+</LinearLayout>
